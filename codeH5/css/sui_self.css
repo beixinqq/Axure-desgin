@@ -5,9 +5,9 @@ body{
     background-color: #eeeeee;
 }
 
+
 /*重新覆盖样式部分*/
 /*header*/
-
 .item-content,.content-block .button{
     -webkit-box-shadow:3px 3px 6px #999999;
     -moz-box-shadow:3px 3px 6px #999999;
@@ -67,6 +67,15 @@ header h1.title{
 }
 
 /*picker*/
+.picker-modal{
+    position: absolute;
+    left:0;
+    right: 0;
+
+    max-width:640px;
+    margin: 0 auto;
+    min-width: 320px;
+}
 .picker-modal .bar{
     background-color: #ffffff;
 }
