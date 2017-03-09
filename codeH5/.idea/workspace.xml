@@ -25,25 +25,47 @@
     <splitter split-orientation="horizontal" split-proportion="0.87951106">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="sui_self.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="login_location.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/user/login_location.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="90" column="3" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
+                  <folding>
+                    <marker date="1489038250155" expanded="true" signature="3910:4012" ph="..." />
+                    <marker date="1489038250155" expanded="true" signature="3910:4013" ph="..." />
+                    <marker date="1489038250155" expanded="true" signature="3910:4043" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sui_self.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/sui_self.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="724">
-                  <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+                <state relative-caret-position="684">
+                  <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/user/login.html">
+          <file leaf-file-name="login_applicant.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/user/login_applicant.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-96">
-                  <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+                <state relative-caret-position="624">
+                  <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login_in.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/user/login_in.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="520">
+                  <caret line="62" column="81" selection-start-line="62" selection-start-column="81" selection-end-line="62" selection-end-column="81" />
                   <folding>
-                    <marker date="1489029949755" expanded="true" signature="3891:3993" ph="..." />
-                    <marker date="1489029949755" expanded="true" signature="3891:3994" ph="..." />
-                    <marker date="1489029949755" expanded="true" signature="3891:4024" ph="..." />
+                    <marker date="1489039441988" expanded="true" signature="3163:3296" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -85,7 +107,12 @@
         <option value="$PROJECT_DIR$/js/page/userLogin.js" />
         <option value="$PROJECT_DIR$/js/page/pickerDemo.js" />
         <option value="$PROJECT_DIR$/user/login.html" />
+        <option value="$PROJECT_DIR$/user/login_applicant  .html" />
+        <option value="$PROJECT_DIR$/user/login_applicant .html" />
+        <option value="$PROJECT_DIR$/user/login_location .html" />
         <option value="$PROJECT_DIR$/css/sui_self.css" />
+        <option value="$PROJECT_DIR$/user/login_applicant.html" />
+        <option value="$PROJECT_DIR$/user/login_in.html" />
       </list>
     </option>
   </component>
@@ -198,6 +225,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\qiubeixin\Desktop\食药监系统\codeH5\user" />
       <recent name="C:\Users\qiubeixin\Desktop\食药监系统\codeH5" />
     </key>
   </component>
@@ -267,12 +295,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488983863279</updated>
       <workItem from="1488983864507" duration="11175000" />
-      <workItem from="1489027792960" duration="2356000" />
+      <workItem from="1489027792960" duration="4727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13531000" />
+    <option name="totallyTimeSpent" value="15902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -312,14 +340,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/login.html">
+    <entry file="file://$PROJECT_DIR$/user/login_location.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
           <folding>
-            <marker date="1489029949755" expanded="true" signature="3891:3993" ph="..." />
-            <marker date="1489029949755" expanded="true" signature="3891:3994" ph="..." />
-            <marker date="1489029949755" expanded="true" signature="3891:4024" ph="..." />
+            <marker date="1489038250155" expanded="true" signature="3910:4012" ph="..." />
+            <marker date="1489038250155" expanded="true" signature="3910:4013" ph="..." />
+            <marker date="1489038250155" expanded="true" signature="3910:4043" ph="..." />
           </folding>
         </state>
       </provider>
@@ -344,23 +372,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/login.html">
+    <entry file="file://$PROJECT_DIR$/css/sui_self.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        <state relative-caret-position="684">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/login_applicant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/login_location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="90" column="3" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
           <folding>
-            <marker date="1489029949755" expanded="true" signature="3891:3993" ph="..." />
-            <marker date="1489029949755" expanded="true" signature="3891:3994" ph="..." />
-            <marker date="1489029949755" expanded="true" signature="3891:4024" ph="..." />
+            <marker date="1489038250155" expanded="true" signature="3910:4012" ph="..." />
+            <marker date="1489038250155" expanded="true" signature="3910:4013" ph="..." />
+            <marker date="1489038250155" expanded="true" signature="3910:4043" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sui_self.css">
+    <entry file="file://$PROJECT_DIR$/user/login_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="520">
+          <caret line="62" column="81" selection-start-line="62" selection-start-column="81" selection-end-line="62" selection-end-column="81" />
+          <folding>
+            <marker date="1489039441988" expanded="true" signature="3163:3296" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

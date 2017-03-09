@@ -80,3 +80,10 @@ header h1.title{
     color: #1A79EF;
     font-weight: 700;
 }
+.picker-center-highlight{
+    background-color: #ffffff;
+    z-index: -1;
+}
+p{
+    margin: .5em 0;
+}
