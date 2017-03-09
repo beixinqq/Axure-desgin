@@ -8,7 +8,6 @@ body{
 /*重新覆盖样式部分*/
 /*header*/
 
-
 .item-content,.content-block .button{
     -webkit-box-shadow:3px 3px 6px #999999;
     -moz-box-shadow:3px 3px 6px #999999;
@@ -64,5 +63,20 @@ header h1.title{
     border: 1px solid #1A79EF;
     color: #ffffff;
     background-color: #1A79EF;
+    font-weight: 700;
+}
+
+/*picker*/
+.picker-modal .bar{
+    background-color: #ffffff;
+}
+.picker-modal .bar .button-link{
+    color: #1A79EF;
+}
+.picker-item{
+    font-size: .8rem;
+}
+.picker-item.picker-selected{
+    color: #1A79EF;
     font-weight: 700;
 }

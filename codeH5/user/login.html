@@ -39,7 +39,7 @@
                            <div class="item-content">
                                <div class="item-inner">
                                    <div class="item-input">
-                                       <input type="text" placeholder="请选择" id="" readonly="">
+                                       <input type="text" placeholder="请选择" id="picker-dictions" readonly="">
                                    </div>
                                    <div class="icon icon-right"></div>
                                </div>
@@ -51,7 +51,7 @@
                            <div class="item-content">
                                <div class="item-inner">
                                    <div class="item-input">
-                                       <input type="text" placeholder="请选择" id="" readonly="">
+                                       <input type="text" placeholder="请选择" id="picker-unit" readonly="">
                                    </div>
                                    <div class="icon icon-right"></div>
                                </div>
@@ -65,7 +65,6 @@
                                    <div class="item-input">
                                        <input type="text" placeholder="填写企业名称....." id="">
                                    </div>
-                                   <div class="icon icon-right"></div>
                                </div>
                            </div>
                        </li>
@@ -86,4 +85,35 @@
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+<script type="text/javascript" src="../js/page/pickerDemo.js"></script>
+
+<script>
+    function picker(idName,titleName,ary){
+        $(idName).picker({
+            toolbarTemplate: '<header class="bar bar-nav">\
+        <button class="button button-link pull-right close-picker">确定</button>\
+  <h1 class="title">'+titleName+'</h1>\
+  </header>',
+            cols: [
+                {
+                    textAlign: 'center',
+                    values:ary
+                }
+            ]
+        });
+    }
+
+
+    // 行政辖区
+    var dictionsAry= ['001-盐城市', '001001-亭湖区', '001002-亭湖区', '001003-亭湖区'];
+    picker('#picker-dictions','请选择行政辖区',dictionsAry);
+
+    // 行政监管单位
+    var unitAry=['001-盐城市食品药品监督管理局','001001-大丰区市场监督管理局','001001-大丰区市场监督管理局','001002-大丰区市场监督管理局'];
+    picker('#picker-unit','请选择行政监管单位',unitAry);
+
+
+
+</script>
+
 </body>
