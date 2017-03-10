@@ -35,7 +35,18 @@ header h1.title{
     text-align: center;
     font-weight: 700;
 }
+.content .content-padded h3.title .icon-down,.content .content-padded h3.title .icon-up{
+    position: absolute;
+    right: 0;
 
+}
+.content-padded-bgwhite{
+    background-color: #ffffff;
+    margin: 1rem auto .5rem;
+}
+.content-padded-bgwhite h3{
+    color: #1A79EF;
+}
 /*input*/
 .list-block{
     margin-top: .7rem;
@@ -96,3 +107,6 @@ header h1.title{
 p{
     margin: .5em 0;
 }
+
+
+
