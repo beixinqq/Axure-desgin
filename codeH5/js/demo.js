@@ -4,7 +4,6 @@
 function querySelectorAll(name){
     return document.querySelectorAll(name);
 }
-
 var contentIcon=querySelectorAll('.content-padded-bgwhite .icon-down');
 var contentSelect=querySelectorAll('.content-padded1');
 var titleName=querySelectorAll('.content-padded-bgwhite .title-name');
