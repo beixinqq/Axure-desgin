@@ -34,6 +34,7 @@ header h1.title{
     width: 100%;
     text-align: center;
     font-weight: 700;
+    cursor: pointer;
 }
 .content .content-padded h3.title .icon-down,.content .content-padded h3.title .icon-up{
     position: absolute;

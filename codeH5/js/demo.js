@@ -1,6 +1,5 @@
-/**
- * Created by qiubeixin on 2017/3/9.
- */
+
+//显示与隐藏
 function querySelectorAll(name){
     return document.querySelectorAll(name);
 }
@@ -24,3 +23,19 @@ for (var i = 0; i < titleName.length; i++) {
         }
     })(i);
 }
+
+//获取验证码 倒计时30秒
+var wait=30;
+function time(o){
+    if(wait==0){
+        o.innerHTML='获取验证码';
+        wait=30;
+    }else{
+        o.innerHTML=wait+'后再次发送';
+        wait--;
+        setTimeout(function () {
+            time(o);
+        },1000)
+    }
+}
+document.querySelector('#wait').onclick=function(){time(this);}
