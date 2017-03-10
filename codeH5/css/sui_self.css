@@ -107,7 +107,7 @@ header h1.title{
 p{
     margin: .5em 0;
 }
-.getCode a:active{
+.getCode a:visited{
     background-color: #1A79EF;
     color: white;
     transition: all .3s linear 0s;
